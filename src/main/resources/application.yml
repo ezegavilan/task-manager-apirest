@@ -1,0 +1,9 @@
+spring:
+  profiles:
+    active: mysql
+
+server:
+  error:
+    include-binding-errors: always
+    include-message: always
+  port: ${PORT:5000}
